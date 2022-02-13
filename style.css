@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Rubik+Mono+One&display=swap');
+
+
+body {
+  background-image: url('images/miamihousingBG.filterpng.png'); 
+  background-repeat: no-repeat;
+  background-size: relative;
+  background-color: blue;
+  
+  
+  img src='images/pinkjacketman.png' alt="Main Character";
+  img src='images/suburbs.png' alt="burbs";
+  img src='images/urban.png' alt="urban life";
+  img src='images/transition.png' alt="transition housing";
+  img src='images/ladypic.png' alt="Pedestrian3";
+  img src='images/hawaiianshirtman.png' alt="Pedestrian";
+  img src='images/purplejacketman.png' alt="Pedestrian2";
+}
+.blur {filter: blur(4px);}
+
+.button {
+  background-color: #fa0bfe;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+<style>
+.container {
+  height: 200px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.centerright {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+body {margin:25px;}
+
+div.polaroid {
+  width: 80%;
+  background-color: transparent;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container2 {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.newspaper {
+  column-count: 3;
+}
+
+h1 {
+  color: #00eeff;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 300%;
+}
+h2 {
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  font-size: 200%;
+}
+
+p {
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  font-size: 160%;
+}
+
+.fade {
+  background-color: transparent;
+  color: #fff;
+  transition: background-color 1s;
+}
+
+.fade:hover {
+  background-color: #930fff;
+}
+
+.fade:focus,
+.fade:active {
+  background-color: black;
+  transition: none;
+}
+
+a:link {
+  color: hotpink;
+  background-color: transparent;
+  text-decoration: underline;
+  font-family: Dosis;
+  font-weight: bold;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.bluediv {
+  width:200px;
+  background-color:lightblue;
+  margin: auto;
+}
+
+.nextbutton {
+  background-color: transparent;
+  position: relative;
+  font-family: Rubik Mono One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 89px;
+  align-items: center;
+  text-align: center;
+  border: none;
+
+  color: #68FAFF;
+  text-shadow: 4px 2px 2px #FF64C9;
+}
+</style>
+
+<div class="container">
+  <div class="center">
+    <button>Centered Button</button>
+  </div>
+</div>
+
